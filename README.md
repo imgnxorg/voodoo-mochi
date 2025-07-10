@@ -1,6 +1,31 @@
 # Voodoo Mochi Theme
 
-**Voodoo Mochi** is a dark and bold theme designed for those who want a mystical yet vibrant coding
+**Voodoo Mochi** is## Preview
+
+Here's a preview of the **Voodoo Mochi** theme in action, showcasing the mystical dark aesthetic with vibrant
+syntax highlighting:
+
+<div align="center">
+
+### Theme Screenshot
+
+![Voodoo Mochi Theme Preview](_PRESS.png)
+
+<details>
+<summary>📋 View Color Palette</summary>
+
+### Color Swatches
+
+The theme features a carefully curated color palette organized by RGB values, creating the perfect blend of
+dark mysticism and vibrant energy:
+
+![Color Swatches](_PRESS.jpeg)
+
+For the complete interactive color reference, see [\_PRESS.md](_PRESS.md).
+
+</details>
+
+</div>k and bold theme designed for those who want a mystical yet vibrant coding
 experience. With an intricate mix of glowing highlighters and deep dark backgrounds, this theme brings the
 essence of magical energy straight into your code editor.
 
@@ -22,6 +47,9 @@ essence of magical energy straight into your code editor.
 - **Strings & Constants**: Bright, eye-catching pinks and yellows for easy differentiation.
 - **Variables**: From electric mint greens to darker shades for local variables, keeping your code sharp and
   easy to read.
+
+> 💡 **Tip**: The theme looks best with font ligatures enabled and a programming font like Fira Code or
+> JetBrains Mono.
 
 ## Installation
 
