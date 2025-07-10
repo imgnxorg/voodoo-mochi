@@ -1,0 +1,18 @@
+{
+  "name": "voodoo-mochi",
+  "displayName": "Voodoo Mochi Dark Theme",
+  "description": "A dark, mystic theme for VS Code.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Voodoo Mochi Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./voodoo.theme.json"
+      }
+    ]
+  }
+}
