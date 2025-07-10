@@ -1,4 +1,49 @@
-| Column 1                                                                                                                           | Column 2                                                                                                                           | Column 3                                                                                                                           | Column 4                                                                                                                           | Column 5                                                                                                                           | Column 6                                                                                                                           |
+# Voodoo Mochi
+
+Swatchbook
+
+> R > G > B
+
+Organized by channel descending — similar to how a dictionary is organized.
+
+<style>
+body {
+  background: #000000;
+}
+
+th {
+    color: transparent !important;
+    border: none !important;
+}
+tr > *, td {
+    border: none !important;
+  text-align: center !important;
+  vertical-align: middle !important;
+  horizontal-align: center !important;
+  position: relative !important;
+  text-align: center !important;
+  background-blend-mode: normal !important;
+}
+td *:not(span) {
+  font-size: 8px !important;
+  color: #FFF !important;
+  background: transparent !important;
+  position: absolute !important;
+  text-blend-mode: difference !important;
+  z-index: 10 !important;
+  top: 50% !important;
+  left: 50% ! !important;
+  margin-left: -25% !important;
+}
+td span {
+    height: 50px !important;
+    border-radius: 5px !important;
+    margin: 0 !important;
+    width: 60px !important;
+}
+</style>
+
+| ---                                                                                                                                | ---                                                                                                                                | ---                                                                                                                                | ---                                                                                                                                | ---                                                                                                                                | ---                                                                                                                                |
 | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
 | <span style="display:inline-block;width:60px;height:20px;background-color:#ffffff80;border:1px solid #ccc;"></span><br>`#ffffff80` | <span style="display:inline-block;width:60px;height:20px;background-color:#ffffff66;border:1px solid #ccc;"></span><br>`#ffffff66` | <span style="display:inline-block;width:60px;height:20px;background-color:#ffffff60;border:1px solid #ccc;"></span><br>`#ffffff60` | <span style="display:inline-block;width:60px;height:20px;background-color:#ffffff56;border:1px solid #ccc;"></span><br>`#ffffff56` | <span style="display:inline-block;width:60px;height:20px;background-color:#ffffff40;border:1px solid #ccc;"></span><br>`#ffffff40` | <span style="display:inline-block;width:60px;height:20px;background-color:#ffffff33;border:1px solid #ccc;"></span><br>`#ffffff33` |
 | <span style="display:inline-block;width:60px;height:20px;background-color:#ffffff2e;border:1px solid #ccc;"></span><br>`#ffffff2e` | <span style="display:inline-block;width:60px;height:20px;background-color:#ffffff26;border:1px solid #ccc;"></span><br>`#ffffff26` | <span style="display:inline-block;width:60px;height:20px;background-color:#ffffff1f;border:1px solid #ccc;"></span><br>`#ffffff1f` | <span style="display:inline-block;width:60px;height:20px;background-color:#ffffff1b;border:1px solid #ccc;"></span><br>`#ffffff1b` | <span style="display:inline-block;width:60px;height:20px;background-color:#ffffff1a;border:1px solid #ccc;"></span><br>`#ffffff1a` | <span style="display:inline-block;width:60px;height:20px;background-color:#ffffff14;border:1px solid #ccc;"></span><br>`#ffffff14` |

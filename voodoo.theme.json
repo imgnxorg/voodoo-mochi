@@ -1034,7 +1034,7 @@
     {
       "scope": ["string variable"],
       "settings": {
-        "foreground": "#C7A400",
+        "foreground": "#D2B29A",
         "fontStyle": "italic"
       }
     },
