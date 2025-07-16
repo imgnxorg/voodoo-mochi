@@ -9,7 +9,7 @@ syntax highlighting:
 
 ### Theme Screenshot
 
-[Voodoo Mochi Theme Preview](_PRESS.png)
+![Voodoo Mochi Theme Color Palette](_PRESS.png)
 
 <details>
 <summary>📋 View Color Palette</summary>
