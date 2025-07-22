@@ -88,7 +88,7 @@ For any advanced customizations, refer to
 
 ## Contributions
 
-- **[Your Name/Handle]**: Creator of Voodoo Mochi Theme.
+- **Donald W. Moore Jr. [@imgnx](https://github.com/imgnx)**: Creator of Voodoo Mochi Theme.
 
 If you have any ideas, suggestions, or improvements, feel free to fork the repository and contribute!
 

@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """
-Script to convert the 6-column color swatch table to a 12-column format.
-This will merge every two consecutive rows into one 12-column row.
+Script to convert the 6-column color swatch table to a square format.
+This will adjust the table to have an equal number of columns and rows.
 """
 
 import re
+import math
 
-def convert_table_to_12_columns(input_file, output_file):
+def convert_table_to_square(input_file, output_file):
     with open(input_file, 'r', encoding='utf-8') as f:
         content = f.read()
     
@@ -34,47 +35,43 @@ def convert_table_to_12_columns(input_file, output_file):
     table_lines = lines[table_start_idx:table_end_idx]
     after_table = lines[table_end_idx:]
     
-    # Create new 12-column header
-    header_line = '| ' + ' | '.join(['---'] * 12) + ' |'
-    
-    # Process data rows
+    # Extract data rows
     data_rows = []
-    
-    # Collect all data rows (skip header)
     for line in table_lines[1:]:  # Skip header
         if line.strip() and line.startswith('| <span'):
             # Extract each cell including the color code
             cells = re.findall(r'<span[^<]+</span><br>`[^`]+`', line)
             if cells:
-                data_rows.append(cells)
+                data_rows.extend(cells)
     
-    # Combine pairs of rows into 12-column rows
-    combined_rows = []
-    for i in range(0, len(data_rows), 2):
-        if i + 1 < len(data_rows):
-            # Combine two 6-column rows into one 12-column row
-            combined_row = data_rows[i] + data_rows[i + 1]
-        else:
-            # If odd number of rows, pad the last row with empty cells
-            combined_row = data_rows[i] + [''] * 6
-        
-        # Format the combined row
-        row_text = '| ' + ' | '.join(combined_row) + ' |'
-        combined_rows.append(row_text)
+    # Determine the size of the square table
+    total_cells = len(data_rows)
+    square_size = math.ceil(math.sqrt(total_cells))
+    
+    # Pad the data to make it a perfect square
+    data_rows += [''] * (square_size**2 - total_cells)
+    
+    # Create new square table header
+    header_line = '| ' + ' | '.join(['---'] * square_size) + ' |'
+    
+    # Format rows for the square table
+    square_rows = []
+    for i in range(0, len(data_rows), square_size):
+        row_text = '| ' + ' | '.join(data_rows[i:i + square_size]) + ' |'
+        square_rows.append(row_text)
     
     # Reconstruct the full content
-    new_lines = before_table + [header_line] + combined_rows + after_table
+    new_lines = before_table + [header_line] + square_rows + after_table
     new_content = '\n'.join(new_lines)
     
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(new_content)
     
-    print(f"Converted table from 6 columns to 12 columns.")
-    print(f"Original rows: {len(data_rows)}")
-    print(f"New rows: {len(combined_rows)}")
+    print(f"Converted table to square format.")
+    print(f"Square size: {square_size}x{square_size}")
     print(f"Output saved to: {output_file}")
 
 if __name__ == "__main__":
     input_file = "_PRESS.md"
-    output_file = "_PRESS_12col.md"
-    convert_table_to_12_columns(input_file, output_file)
+    output_file = "_PRESS_square.md"
+    convert_table_to_square(input_file, output_file)
