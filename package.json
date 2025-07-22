@@ -3,6 +3,7 @@
   "displayName": "Voodoo Mochi Dark Theme",
   "description": "A dark, mystic theme for VS Code.",
   "version": "0.0.1",
+  "publisher": "imgnx",
   "repository": {
     "type": "git",
     "url": "https://github.com/imgnxorg/voodoo-mochi.git"
