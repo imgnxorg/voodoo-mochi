@@ -71,7 +71,7 @@
   "profiles.sashBorder": "#00FFFF",
   "radio.activeBorder": "#FF00FF",
   "radio.inactiveBorder": "#00FFEA",
-  // "sash.hoverBorder": "#FF00FF",
+  "sash.hoverBorder": "#FF00FF",
   "searchEditor.textInputBorder": "#9933ff",
   "settings.checkboxBorder": "#FF00FF",
   "settings.dropdownBorder": "#00FFFF",
