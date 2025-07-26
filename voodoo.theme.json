@@ -118,7 +118,6 @@
     "disabledForeground": "#cccccc80",
     "dropdown.background": "#3c3c3c",
     "dropdown.foreground": "#f0f0f0",
-    "editor.background": "#000000",
 
     "editor.findMatchBackground": "#515c6a",
     "editor.findMatchHighlightBackground": "#ea5c0055",
@@ -126,7 +125,9 @@
     "editor.focusedStackFrameHighlightBackground": "#7abd7a4d",
     "editor.foldBackground": "#2f2e1c4d",
     "editor.foldPlaceholderForeground": "#808080",
-    "editor.foreground": "#ffefdf",
+    "editor.background": "#000000",
+    "editor.foreground": "#EFFFF6",
+
     "editor.hoverHighlightBackground": "#264f7840",
     "editor.inactiveSelectionBackground": "#007bff22",
     "editor.inlineValuesBackground": "#ffc80033",

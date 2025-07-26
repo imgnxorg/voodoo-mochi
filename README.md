@@ -1,33 +1,71 @@
 # Voodoo Mochi Theme
 
-**Voodoo Mochi** is## Preview
+<style>
+  body {
+  font-family: "Quicksand", sans-serif;
+  font-size: 16px;
+  line-height: 1.25;
+  margin: 0;
+  padding: 0;
+}
+h1
+{
+  font-family: "Goudy Old Style", sans-serif;
+  font-weight: black;
+  font-size: 3em;
+  margin: 20px 20px 10px 20px
+}
 
-Here's a preview of the **Voodoo Mochi** theme in action, showcasing the mystical dark aesthetic with vibrant
-syntax highlighting:
+h2,
+h3, 
+h4,
+h5,
+h6 {
+  font-family: "Geist", sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+b, strong {
+  font-family: sans-serif;
+  font-weight: 900;
+}
+pre, blockquote {
+  background: #99999933;
+}
+
+</style>
+
+<!-- prettier-ignore -->
+**Voodoo Mochi** is a thick, <b>bold</b> theme designed for those who want a mystical yet vibrant coding experience. With an intricate mix of glowing highlighters and deep dark backgrounds, this theme brings the essence of magical energy straight into your code editor.
+
+## Preview
+
+<!-- prettier-ignore -->
+Here's a preview of the **Voodoo Mochi** theme in action, showcasing the mystical dark aesthetic with vibrant syntax highlighting:
 
 <div align="center">
 
-### Theme Screenshot
-
-![Voodoo Mochi Theme Color Palette](_PRESS.png)
+![Voodoo Mochi Theme Screenshot](assets/Screenshot.png)
 
 <details>
+
+![Color Swatches](assets/_PRESS_12col_nobg.png)
+
 <summary>📋 View Color Palette</summary>
+</details>
 
 ### Color Swatches
 
 The theme features a carefully curated color palette organized by RGB values, creating the perfect blend of
-dark mysticism and vibrant energy:
-
-![Color Swatches](_PRESS.jpeg)
-
-For the complete interactive color reference, see [\_PRESS.md](_PRESS.md).
+dark mysticism and vibrant energy.
 
 </details>
 
-</div>k and bold theme designed for those who want a mystical yet vibrant coding
-experience. With an intricate mix of glowing highlighters and deep dark backgrounds, this theme brings the
-essence of magical energy straight into your code editor.
+</div>
 
 ## Features
 
@@ -69,8 +107,8 @@ essence of magical energy straight into your code editor.
 
 ## Preview
 
-Here’s a swatch preview of the colors included in the **Voodoo Mochi** theme. Each color has been designed to
-give your editor the perfect blend of dark mysticism and vibrant energy.
+<!-- prettier-ignore -->
+Here’s a swatch preview of the colors included in the **Voodoo Mochi** theme. Each color has been designed to give your editor the perfect blend of dark mysticism and vibrant energy.
 
 [Insert Swatch Preview Image]
 
